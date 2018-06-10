@@ -38,7 +38,7 @@ namespace tools {
 	/**
     * 判斷是否為質數1
     */
-    //% blockId="PrimeNumber1" block="Is it prime number fuck? InputNumber %InputNumber"
+    //% blockId="PrimeNumbery" block="Is it prime number fuck? InputNumber %InputNumber"
     //% blockGap=2 weight=1
      export function PrimeNumbery(InputNumber: number): number {
         let count = 0
@@ -54,4 +54,13 @@ namespace tools {
 			return 0
 		}
     }
+	/**
+    * 判斷是否為質數1
+    */
+    //% blockId="PYtest" block="fuck"
+    //% blockGap=2 weight=1
+    export function PYtest{
+        
+    }
+
 }
