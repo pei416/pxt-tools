@@ -36,15 +36,15 @@ namespace tools {
 		}
     }
 	/**
-    * 判斷是否為質數
+    * 判斷是否為質數1
     */
-    //% blockId="PrimeNumber1" block="Is it prime number? InputNumber %InputNumber"
+    //% blockId="PrimeNumber1" block="Is it prime number fuck? InputNumber %InputNumber"
     //% blockGap=2 weight=1
-     export function PrimeNumber1(InputNumber: number): number {
+     export function PrimeNumbery(InputNumber: number): number {
         let count = 0
 		for (let i = 1; i <= InputNumber; i++) {
 			if (InputNumber % i == 0) {
-				count = count + 1 
+				count = count + 2 
 			}
 		}
 		if (count == 2) {
