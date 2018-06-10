@@ -4,5 +4,5 @@
     "tools.ledOfRectangle|block": "LED顯示長方形面積 長 %length|寬 %width",
     "tools.PrimeNumber|block": "是否為質數? 輸入數值  %InputNumber",
     "tools.PrimeNumbery|block": "是否為質數? 幹  %InputNumber",
-    "tools.PYtest|block": "幹林老師勒"
+    "tools.PYtest|block": "鄉民尺寸 長 %length|寬 %width"
 }

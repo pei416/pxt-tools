@@ -59,8 +59,10 @@ namespace tools {
     */
     //% blockId="PYtest" block="fuck"
     //% blockGap=2 weight=1
-    export function PYtest{
-        
+    export function PYtest(length: number, width:number): number {
+    return length*width
+    }   
+    
     }
 
-}
+
