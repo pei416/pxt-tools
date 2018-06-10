@@ -54,11 +54,6 @@ namespace tools {
 			return 0
 		}
     }
-    //% blockId="PYtest" block="area of rectangle length %length|width %width"
-    //% blockGap=2 weight=0 blockExternalInputs=true
-    export function PYtest(length: number, width:number): number {
-    return length*width
-    }   
 
     }
 
