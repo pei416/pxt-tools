@@ -19,7 +19,7 @@ namespace tools {
     /**
     * 水平
     */
-    //% blockId="id_horizontal"
+    //% blockId="horizontal"
      //% blockGap=2 weight=1
     export function horizontal(mode: Directions, speed: number): void {
     while (input.acceleration(Dimension.X) >= -100 && input.acceleration(Dimension.X) <= 100) {
