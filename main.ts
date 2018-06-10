@@ -54,15 +54,12 @@ namespace tools {
 			return 0
 		}
     }
-	/**
-    * 判斷是否為質數1
-    */
-    //% blockId="PYtest" block="fuck"
-    //% blockGap=2 weight=1
+    //% blockId="PYtest" block="area of rectangle length %length|width %width"
+    //% blockGap=2 weight=0 blockExternalInputs=true
     export function PYtest(length: number, width:number): number {
     return length*width
     }   
-    
+
     }
 
 
