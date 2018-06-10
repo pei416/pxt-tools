@@ -16,6 +16,16 @@ namespace tools {
     export function ledOfRectangle(length: number, width:number): void {
         basic.showNumber(length*width)
     }
+    /**
+    * 水平
+    */
+    //% blockId="id_horizontal"
+    //% block="dimension to be horizontal"
+    export function horizontal(mode: Directions, speed: number): void {
+    while (input.acceleration(Dimension.X) >= -100 && input.acceleration(Dimension.X) <= 100) {
+    }
+    }
+
 	/**
     * 判斷是否為質數
     */
